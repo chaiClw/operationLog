@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Services;
+namespace Record\OperationService;
 
 use Record\OperationService\Contracts\OperationLogServiceInterface;
 
