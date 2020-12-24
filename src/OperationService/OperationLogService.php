@@ -9,6 +9,6 @@ class OperationLogService implements OperationLogServiceInterface
 {
     public function recordOperation()
     {
-        //代码
+        echo '哈哈。这块是代码逻辑';
     }
 }
