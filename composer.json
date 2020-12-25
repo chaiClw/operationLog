@@ -11,13 +11,20 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "5.*",
-        "illuminate/events": "5.*",
-        "illuminate/config": "5.*"
+        "illuminate/support": "5.7.*",
+        "illuminate/events": "5.7.*",
+        "illuminate/config": "5.7.*",
+        "illuminate/http": "5.7.*"
     },
     "autoload": {
         "psr-4": {
             "Record\\OperationService\\": "src/OperationService/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
         }
     }
 }
